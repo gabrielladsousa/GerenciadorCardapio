@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0eded;
+}
+.container {
+    text-align: center;
+    margin-top: 60px;
+}
+form, .card-resposta {
+    width: 300px;
+    margin-top: 30px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(48, 23, 23, 0.2);
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+}
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%; 
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.button-container {
+    text-align: center;
+    margin: 40px;
+}
+button {
+    padding: 12px 17px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#btnCriar {
+    background-color: green;
+}
+#btnAtualizar {
+    background-color: yellow;
+    color: #000000;
+    display: none;
+}
+.btnExcluir {
+    background-color: red;
+}
+.card-resposta {
+    width: 350px;
+    padding: 10px 25px 10px 25px;
+    margin: 10px 10px 0px 10px;
+    text-align: left;
+}
+p {
+    white-space: normal; 
+    word-wrap: break-word;
+}
+.btnEditar {
+    background-color: yellow;
+    color: #000000;
+}

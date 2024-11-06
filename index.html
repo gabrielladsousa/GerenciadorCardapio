@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Gerenciador de Cardápio</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Gerenciador de Cardápio</h1>
+        <form id="form">
+            <label for="nomePrato">Nome do prato: </label>
+            <input type="text" id="nomePrato" name="nomePrato">
+            <label for="descricaoPrato">Descrição: </label>
+            <textarea id="descricaoPrato" name="descricaoPrato"></textarea>
+            <label for="precoPrato">Preço: </label>
+            <input type="text" id="precoPrato" name="precoPrato">
+        </form>
+    
+    <div class="button-container">
+        <button id="btnCriar">Adicionar</button>
+        <button id="btnAtualizar">Atualizar</button>
+        <button id="btnConsultar">Consultar</button>
+    </div>
+    <div id="resposta"></div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
